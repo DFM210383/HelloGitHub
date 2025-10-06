@@ -1,0 +1,19 @@
+package br.com.exemplo;
+
+import java.util.Scanner;
+
+public class HelloGitHub {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("=== Bem-vindo ao HelloGitHub! ===");
+        System.out.print("Digite seu nome: ");
+        String nome = scanner.nextLine();
+
+        System.out.println("Olá, " + nome + "! 👋");
+        System.out.println("Você acabou de rodar seu primeiro programa Java no GitHub!");
+
+        scanner.close();
+    }
+}
